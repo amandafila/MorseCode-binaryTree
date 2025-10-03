@@ -10,4 +10,16 @@ public class Node {
         left = null;
         right = null;
     }
+
+    public char getElement() {
+        return element;
+    }
+
+    public Node getLeft() {
+        return left;
+    }
+
+    public Node getRight() {
+        return right;
+    }
 }
